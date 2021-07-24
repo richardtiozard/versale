@@ -1,0 +1,169 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: poppins, sans-serif;
+}
+p {
+    font-family: roboto, sans-serif;
+}
+::selection{
+    background-color: #BEDAFA;
+    color: #134153;
+}
+/* Hide Input Number Arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bg-1{
+    background-color: #fff;
+}
+.bg-2{
+    background-color: #134153;
+}
+.bg-3{
+    background-color: #E40041;
+}
+.bg-4{
+    background-color: #902E2E;
+}
+.bg-5{
+    background-color: #BEDAFA;
+}
+.bg-rating{
+    background-color: #fdcc0d;
+}
+
+.text-1{
+    color: #FCFAF1;
+}
+.text-2{
+    color: #BEDAFA;
+}
+.text-3{
+    color: #2E828B;
+}
+.text-4{
+    color: #134153;
+}
+.text-5{
+    color: #902E2E;
+}
+.text-6{
+    color: #333333;
+}
+.text-7{
+    color: #999999;
+}
+.text-8{
+    color: #E40041;
+}
+.text-9{
+    color: #1FD357;
+}
+.text-rating{
+    color: #fdcc0d;
+}
+.text-male{
+    color: #2E828B;
+}
+.text-female{
+    color: #c72481;
+}
+
+.font-weight-200{
+    font-weight: 200;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.errormsg{
+    background-color: rgba(228, 0, 65, 0.05);
+    border: 2px solid rgba(228, 0, 65, 0.1);
+}
+.successmsg{
+    background-color: rgba(31, 211, 87, 0.05);
+    border: 2px solid rgba(31, 211, 87, 0.1);
+}
+
+.pointer-events-none{
+    pointer-events: none;
+}
+
+.custom-box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.custom-box-shadow-2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.custom-box-shadow-3{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.overflow-y-auto{
+    overflow-y: auto;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+/* Layout Blade */
+.headerlogo{
+    width: 150px;
+}
+.nav-profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sidebar{
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    z-index: 9;
+}
+.sidebar-list:hover h6,
+.sidebar-list.active h6{
+    color: #134153;
+    font-weight: 600;
+}
+.warppercontent{
+    margin-top: 150px;
+}
+
+/* Vue Components */
+.componentwarpper{
+    margin-top: 70px;
+    position: relative;
+}
+.warpper{
+    position: relative;
+    padding: 50px 0;
+}
